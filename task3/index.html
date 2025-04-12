@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Advanced Web Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Advanced Web Development Demo</h1>
+
+  <!-- Section 1: Quiz -->
+  <section>
+    <h2>🧠 Quiz Time</h2>
+    <p>What does CSS stand for?</p>
+    <label><input type="radio" name="q1" value="wrong"> Computer Style Sheets</label><br>
+    <label><input type="radio" name="q1" value="correct"> Cascading Style Sheets</label><br>
+    <label><input type="radio" name="q1" value="wrong"> Colorful Style Sheets</label><br>
+    <button onclick="checkAnswer()">Submit</button>
+    <p id="quiz-result"></p>
+  </section>
+
+  <!-- Section 2: Carousel -->
+  <section class="carousel">
+    <h2>🖼️ Image Carousel</h2>
+    <img id="carousel-img" src="https://picsum.photos/id/1015/400/300" alt="Carousel" />
+    <button onclick="nextImage()">Next Image</button>
+  </section>
+
+  <!-- Section 3: Joke API -->
+  <section>
+    <h2>😂 Need a Laugh?</h2>
+    <button onclick="getJoke()">Tell me a joke</button>
+    <p id="joke-text"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
