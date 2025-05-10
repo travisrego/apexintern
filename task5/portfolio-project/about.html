@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn more about Travis Rego, my skills, and experience.">
+    <title>About Me - Travis Rego</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="nav-logo">Travis Rego</a>
+                <button class="nav-toggle" aria-label="toggle navigation" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link active">About</a></li>
+                    <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about-me" class="about-section page-section">
+            <div class="container">
+                <h1>About Me</h1>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="images/profile-picture.jpg" alt="Travis Rego" loading="lazy">
+                    </div>
+                    <div class="about-text">
+                        <p>
+                            Hello! I'm Travis Rego, a passionate and results-driven Web Developer with a knack for creating
+                            dynamic, user-friendly, and efficient web applications. My journey into web development
+                            started with [mention your origin story - e.g., a fascination for how websites worked, a specific project, etc.],
+                            and since then, I've been constantly learning and honing my skills in various technologies.
+                        </p>
+                        <p>
+                            I thrive on turning complex problems into elegant solutions and enjoy working on both
+                            front-end and back-end development. I'm proficient in [mention 2-3 key technologies like JavaScript, React, Node.js, Python, etc.]
+                            and always eager to explore new tools and frameworks that can enhance the development process
+                            and user experience.
+                        </p>
+                        <p>
+                            When I'm not coding, you can find me [mention a hobby or two, e.g., reading tech blogs, contributing to open source, hiking, etc.].
+                            I believe in continuous learning and collaboration, and I'm always excited to take on new challenges
+                            that push my boundaries.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="skills-section">
+                    <h2>My Skills</h2>
+                    <ul class="skills-list">
+                        <li>HTML5 & CSS3 (Sass/LESS)</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React / Vue / Angular (Choose one or more)</li>
+                        <li>Node.js & Express</li>
+                        <li>Python (Django/Flask)</li>
+                        <li>Databases (SQL/NoSQL - e.g., PostgreSQL, MongoDB)</li>
+                        <li>Git & Version Control</li>
+                        <li>Responsive Design</li>
+                        <li>API Integration</li>
+                        <li>Testing (Jest/Mocha)</li>
+                        <!-- Add more skills as relevant -->
+                    </ul>
+                </div>
+
+                <div class="experience-section">
+                    <h2>Experience / Education (Optional)</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h3>[Job Title / Degree] - [Company / Institution]</h3>
+                            <p class="timeline-date">[Start Date] – [End Date or Present]</p>
+                            <p>[Brief description of responsibilities or achievements. Use bullet points if needed.]</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>[Previous Job Title / Degree] - [Previous Company / Institution]</h3>
+                            <p class="timeline-date">[Start Date] – [End Date]</p>
+                            <p>[Brief description.]</p>
+                        </div>
+                        <!-- Add more items as needed -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Travis Rego. All rights reserved.</p>
+            <!-- Add social media links here -->
+        </div>
+    </footer>
+
+    <!-- Project Detail Modal (can be kept for consistency or removed if not used on this page) -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modal-title">Project Title</h2>
+            <img id="modal-image" src="images/placeholder.jpg" alt="Project Image" loading="lazy">
+            <p id="modal-description">Project description...</p>
+            <div id="modal-tech-tags"></div>
+            <a id="modal-live-link" href="#" target="_blank" class="btn">View Live</a>
+            <a id="modal-repo-link" href="#" target="_blank" class="btn">View Repo</a>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

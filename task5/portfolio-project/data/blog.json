@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Understanding Async/Await in JavaScript",
+    "date": "2023-10-26",
+    "slug": "understanding-async-await",
+    "snippet": "A deep dive into asynchronous programming in JavaScript, focusing on async/await syntax...",
+    "content": "<p>Async/await is syntactic sugar built on top of promises, making asynchronous code look and behave a bit more like synchronous code. This makes it easier to read and reason about.</p><h3>Key Concepts:</h3><ul><li><strong>async function:</strong> Declares an asynchronous function. The return value is implicitly wrapped in a Promise.</li><li><strong>await operator:</strong> Used to pause execution of an async function until a Promise is settled (resolved or rejected). It can only be used inside an async function.</li></ul><p>More content here...</p>"
+  },
+  {
+    "id": 2,
+    "title": "CSS Grid vs. Flexbox: When to Use Which",
+    "date": "2023-10-15",
+    "slug": "css-grid-vs-flexbox",
+    "snippet": "Exploring the differences and use cases for CSS Grid and Flexbox to create powerful layouts...",
+    "content": "<p>Both CSS Grid and Flexbox are powerful layout modules, but they serve different primary purposes.</p><h3>Flexbox:</h3><p>Primarily designed for one-dimensional layouts – either a row or a column.</p><h3>CSS Grid:</h3><p>Designed for two-dimensional layouts – rows and columns simultaneously.</p><p>More content here...</p>"
+  }
+]

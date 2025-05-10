@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse projects by Travis Rego.">
+    <title>Projects - Travis Rego</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="nav-logo">Travis Rego</a>
+                <button class="nav-toggle" aria-label="toggle navigation" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="projects.html" class="nav-link active">Projects</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="all-projects" class="projects-page-section">
+            <div class="container">
+                <h1>My Projects</h1>
+                <div class="filter-controls">
+                    <label for="tech-filter">Filter by Technology:</label>
+                    <select id="tech-filter">
+                        <option value="all">All Technologies</option>
+                        <!-- Options will be populated by JavaScript -->
+                    </select>
+                </div>
+                <div class="projects-grid" id="all-projects-grid">
+                    <!-- Projects will be loaded here by JavaScript -->
+                    <p>Loading projects...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Travis Rego. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Re-use the same modal structure from index.html if preferred, or include it here too -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modal-title">Project Title</h2>
+            <img id="modal-image" src="images/placeholder.png" alt="Project Image" loading="lazy">
+            <p id="modal-description">Project description...</p>
+            <div id="modal-tech-tags"></div>
+            <a id="modal-live-link" href="#" target="_blank" class="btn">View Live</a>
+            <a id="modal-repo-link" href="#" target="_blank" class="btn">View Repo</a>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

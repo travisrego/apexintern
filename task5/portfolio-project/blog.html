@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Read articles and insights from Travis Rego's blog.">
+    <title>Blog - Travis Rego</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Add favicon links here -->
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="nav-logo">Travis Rego</a>
+                <button class="nav-toggle" aria-label="toggle navigation" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link active">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="blog-posts" class="blog-page-section page-section">
+            <div class="container">
+                <h1>My Blog</h1>
+                <p>Welcome to my little corner of the web where I share thoughts on technology, web development, and more.</p>
+
+                <div id="full-blog-list" class="blog-list">
+                    <!-- Blog posts will be dynamically loaded here by js/main.js -->
+                    <p>Loading blog posts...</p>
+                </div>
+
+                <!--
+                Placeholder for individual blog post display if you implement client-side routing later.
+                Initially, clicking "Read More" might just link to this page with a hash,
+                and JS could try to find and display the specific post if a hash exists.
+                Or, you could generate separate HTML files for each blog post for simplicity if not using a CMS/backend.
+                -->
+                <article id="single-post-content" class="single-post-view" style="display:none;">
+                    <!-- Content for a single blog post would go here if loaded dynamically -->
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Travis Rego. All rights reserved.</p>
+            <!-- Add social media links here -->
+        </div>
+    </footer>
+
+    <!-- Project Detail Modal (can be kept for consistency or removed if not used on this page) -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modal-title">Project Title</h2>
+            <img id="modal-image" src="images/placeholder.jpg" alt="Project Image" loading="lazy">
+            <p id="modal-description">Project description...</p>
+            <div id="modal-tech-tags"></div>
+            <a id="modal-live-link" href="#" target="_blank" class="btn">View Live</a>
+            <a id="modal-repo-link" href="#" target="_blank" class="btn">View Repo</a>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

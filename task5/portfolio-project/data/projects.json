@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "E-commerce Platform",
+    "image": "images/project-ecommerce.jpg",
+    "thumb": "images/project-ecommerce-thumb.jpg",
+    "description": "A full-featured e-commerce website with cart functionality, user accounts, and product listings. Built with MERN stack.",
+    "technologies": ["React", "Node.js", "Express", "MongoDB", "CSS"],
+    "liveLink": "#",
+    "repoLink": "#"
+  },
+  {
+    "id": 2,
+    "title": "Weather Dashboard",
+    "image": "images/project-weather.jpg",
+    "thumb": "images/project-weather-thumb.jpg",
+    "description": "A web application that displays current weather and forecasts for a searched city using a third-party API.",
+    "technologies": ["JavaScript", "HTML", "CSS", "API"],
+    "liveLink": "#",
+    "repoLink": "#"
+  },
+  {
+    "id": 3,
+    "title": "Personal Blog",
+    "image": "images/project-blog.jpg",
+    "thumb": "images/project-blog-thumb.jpg",
+    "description": "A dynamic blog platform where users can read and comment on articles. Features admin panel for content management.",
+    "technologies": ["Python", "Django", "PostgreSQL", "Bootstrap"],
+    "liveLink": "#",
+    "repoLink": "#"
+  }
+]
